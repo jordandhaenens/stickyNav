@@ -1,0 +1,52 @@
+body, html {
+	/*width: 100%;*/
+	/*height: 100%;*/
+	margin: 0;
+	background-color: lightblue;
+}
+
+#imgDiv {
+	/*width: 100%;*/
+	height: 150vh;
+	/*margin: 0;*/
+	background-size: cover;
+	background-image: url("imgs/008.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+
+main {
+	margin: 2.5% 10%;
+}
+
+.article {
+	margin: 2.5% auto;
+	padding: 1em;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	height: 5em;
+	position: fixed;
+	bottom: 0;
+	justify-content: center;
+
+}
+
+nav a {
+	width: 25%;
+	/*height: auto;*/
+	/*margin: 0;*/
+	padding: 2em 0;
+	background-color: lightblue;
+	text-align: center;
+	/*align-content: center;*/
+	text-decoration: none;
+	/*justify-content: center;*/
+}
+
+
+
